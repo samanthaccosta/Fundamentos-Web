@@ -1,0 +1,72 @@
+/*
+Estilos da pagina index.html
+*/
+.flex-container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+    .flex-container > div {
+        background-color:rgb(193, 228, 98);
+        margin: auto;
+        padding: 10px;
+        font-size: 30px;
+        
+      }
+
+.p {
+        font-size: 20px;
+        color: rgb(3, 4, 54);
+        border-radius: 5px;
+        text-align: center;
+        line-height: 1.8;
+        padding: 20px
+    }
+
+.titulo {
+        color: rgb(1, 8, 4);
+        text-align: center;
+        text-decoration: underline;
+        border-radius: 10px;
+}
+
+.fundo {
+        background-color: rgb(71, 168, 172);
+        opacity: 8;
+    }
+.fundo2{
+    background-color: rgb(193, 228, 98);
+    opacity: 1;
+    padding: 5px;
+}
+.fundo3{
+    background-color: rgb(230, 208, 148);
+    opacity: 1;
+}
+.menu li{
+    display: inline;
+    padding: 20px;
+    }
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    
+    }
+.menu li a:hover{
+    color: rgb(53, 23, 185);
+}
+
+.tamanho{
+    width: 30px;
+    height: 30px;
+}
+
+/*
+Estilos da pagina contato.html
+*/
+.wh-pequeno {
+    width:100px;
+    height: 100px;
+    
+}
